@@ -66,7 +66,9 @@ end
 
   def sell_pets
     pets.each do |species, animals |
-    pets.mood="nervous"
+    if animals.empty? 
+      pets.mood="nervous"
+    end 
   end
 end
 
