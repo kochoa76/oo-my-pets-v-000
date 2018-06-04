@@ -69,7 +69,6 @@ end
     animals.empty? 
       animals.mood="nervous"
     end 
-  end
 end
 
   
