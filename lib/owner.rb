@@ -70,6 +70,7 @@ end
      animal.mood="nervous"
     end 
   end 
+  pets.clear 
  end  
 
 
