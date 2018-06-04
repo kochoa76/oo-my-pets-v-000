@@ -60,6 +60,12 @@ end
   end 
 end 
 
+  def sell_pets
+    @pets.clear.each do |pets|
+    pets.mood="nervous"
+  end
+end
+
   
 
   
