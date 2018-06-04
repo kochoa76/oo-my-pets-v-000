@@ -10,6 +10,10 @@ class Owner
     @species = "human"
     OWNERS<<self 
   end 
+  
+  def all_pets 
+    @pets
+  end 
 
   def self.all
    OWNERS
@@ -61,7 +65,7 @@ end
 end 
 
   def sell_pets
-    @pets.each do |pets|
+    all_pets.each do |pets|
     pets.mood="nervous"
   end
 end
